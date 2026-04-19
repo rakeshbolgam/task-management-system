@@ -2,8 +2,6 @@
 
 A backend REST API application for managing tasks with secure authentication, role-based access, and scalable architecture.
 
----
-
 ##Overview
 
 This project is designed to simulate a real-world task management system where:
@@ -11,8 +9,6 @@ This project is designed to simulate a real-world task management system where:
 * Users can create and manage tasks
 * Admins can manage all users and tasks
 * Secure APIs are implemented using JWT authentication
-
----
 
 ##Tech Stack
 
@@ -23,8 +19,6 @@ This project is designed to simulate a real-world task management system where:
 * **MySQL**
 * **Maven**
 
----
-
 ## Key Features
 
 * User Authentication & Authorization (JWT)
@@ -34,8 +28,6 @@ This project is designed to simulate a real-world task management system where:
 * DTO Pattern Implementation
 * Global Exception Handling
 * Clean layered architecture (Controller → Service → Repository)
-
----
 
 ## Project Structure
 
@@ -52,8 +44,6 @@ src/main/java/com/rakesh/task_manager
 └── exception         # Global exception handling
 ```
 
----
-
 ## API Endpoints
 
 ### Authentication
@@ -69,8 +59,6 @@ src/main/java/com/rakesh/task_manager
 * `PUT /tasks/{id}` → Update task
 * `DELETE /tasks/{id}` → Delete task
 
----
-
 ## Configuration
 
 Update your `application.properties`:
@@ -83,8 +71,6 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 ```
 
----
-
 ## How to Run
 
 ```bash
@@ -93,19 +79,13 @@ cd task-management-system
 mvn spring-boot:run
 ```
 
----
-
 ## Testing
 
 Use Postman or any API client to test endpoints.
 
----
-
 ## (Optional – Add Screenshots)
 
 *Add Postman screenshots here for better presentation*
-
----
 
 ## Highlights for Recruiters
 
@@ -114,12 +94,8 @@ Use Postman or any API client to test endpoints.
 * Handles pagination, sorting, and validation
 * Demonstrates backend development skills with Spring Boot
 
----
-
 ## Author
 
 **Rakesh Bolgam**
-
----
 
 ## If you like this project, give it a star!
